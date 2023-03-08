@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+
+    {{if eq $.User.Active 1}}
+        <h2>Go to <a href="/userspace">user only space</a></h2>
+        <h2><a href="/logout">log out</a></h2>
+    {{else }}
+        <h2><a href="/login">log in</a></h2>
+        <h2><a href="/signup">sign up</a></h2>
+    {{end  }}
+    <h2>{{.Flash}}</h2>
+
+
+<br>
+
+</body>
+</html>
