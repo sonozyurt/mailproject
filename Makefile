@@ -1,5 +1,5 @@
 BINARY_NAME=mailapp
-DSN="host=localhost port=5432 user=postgres password=password dbname=database sslmode=disable timezone=UTC connect_timeout=5"
+DSN="host=localhost port=5432 user=postgres password=password dbname=database sslmode=disable"
 
 
 start:
